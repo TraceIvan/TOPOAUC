@@ -1,0 +1,16 @@
+{
+    "lr": {"_type":"choice","_value":[0.001]},
+    "lr_decay_rate": {"_type":"choice","_value":[0.95]},
+    "dropout":{"_type":"choice","_value":[0.6]},
+    "pagerank_prob":{"_type":"choice","_value":[0.1]},
+    "num_hidden": {"_type":"choice","_value":[810]},
+    "num_layer":{"_type":"choice","_value":[3]},
+    "weight_decay":{"_type":"choice","_value":[0.0005]},
+    
+    "weight_sub_dim": {"_type":"choice","_value":[8]},
+    "weight_inter_dim": {"_type":"choice","_value":[64]},
+    "weight_global_dim": {"_type":"choice","_value":[64]},
+    "beta":{"_type":"choice","_value":[1.0]},
+    "gamma":{"_type":"choice","_value":[1.0]}
+    
+}
