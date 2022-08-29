@@ -2,8 +2,10 @@
 An implement of the ACM MM 22 paper: A Unified Framework against Topology and Class Imbalance.
 
 ## Environments
-* **Python** 3.6.8
-* **Pytorch** 1.14
+* **Python** 3.7.11
+* **Pytorch** 1.11
+* **torch-geometric** 2.0.4
+* **CUDA** 11.3
 
 ## Data
 When running `train.py` for the first time, the dataset (CORA, CiteSeer, PubMed) will be automatically downloaded to ./datasets/[dataset] by torch_geometric.
