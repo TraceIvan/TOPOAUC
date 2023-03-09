@@ -6,6 +6,7 @@ An implement of the ACM MM 22 paper: A Unified Framework against Topology and Cl
 * **Pytorch** 1.11
 * **torch-geometric** 2.0.4
 * **CUDA** 11.3
+* **scikit-learn** 1.0.2
 
 ## Data
 When running `train.py` for the first time, the dataset (CORA, CiteSeer, PubMed) will be automatically downloaded to ./datasets/[dataset] by torch_geometric.
